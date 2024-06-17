@@ -45,7 +45,7 @@
 
 .faq {
     cursor: pointer;
-    background: #EEEEEE;
+    background: #D2E3C8;
     border-radius: 1rem;
 }
 
@@ -57,7 +57,6 @@
     align-items: center;
     gap: 32px;
     justify-content: space-between;
-    color: var(--color-black);
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-style: normal;
@@ -90,6 +89,73 @@
     transition: all 0.1s ease-in;
 }
 
+.language_toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.language_toggle p {
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.toggle_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 81.667px;
+    height: 42px;
+    background: #f1f1f1;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ececec;
+    transition: 0.3s;
+}
+
+.toggle_container.active {
+    background: #79AC78;
+}
+
+.toggle_container.active .toggle_btn {
+    left: 41px;
+    box-shadow: none;
+}
+
+.toggle_btn {
+    position: relative;
+    top: 0;
+    left: 1px;
+    width: 35px;
+    height: 35px;
+    background: #fefefe;
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 3;
+    box-shadow: 0px 0px 10px 1px #cdcdcd;
+    transition: 0.3s;
+}
+
+.english.active {
+    color: #79AC78;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.viet.active {
+    color: #79AC78;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .faq_header h1 {
@@ -112,8 +178,17 @@
         font-size: 1.2rem;
     }
 
+    .answer {
+        font-size: 20px;
+        line-height: 1.7rem;
+    }
+
     .active.answer {
         padding: 0 5% 2% 5%;
+    }
+
+    .faq_header h1 {
+        margin-bottom: 0;
     }
 }
 
@@ -137,6 +212,7 @@
 
     .answer {
         font-size: 12px;
+        line-height: 1.3rem;
     }
 
     .faq_inner {

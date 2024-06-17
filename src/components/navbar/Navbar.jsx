@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="nav_container">
             <div className="nav_logo">
                 <NavLink to="/">
-                    <h1>Julia & Duy</h1>
+                    <h1>Duy & Julia</h1>
                 </NavLink>
             </div>
             <div className="nav_contents">

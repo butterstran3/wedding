@@ -6,6 +6,8 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    top: 0;
+    z-index: 50;
 }
 
 .nav_logo {
@@ -43,9 +45,9 @@
 }
 
 .nav_contents a.active {
-    color: black;
+    color: #79AC78;
     text-decoration: underline;
-    text-decoration-color: #A9A9A9;
+    text-decoration-color: #79AC78;
     text-decoration-thickness: 1.5px;
     text-underline-offset: 0.2rem;
     font-weight: 600;

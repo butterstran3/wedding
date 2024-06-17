@@ -26,3 +26,19 @@
     border-radius: 8px;
     object-fit: cover;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .photos_container {
+        margin-top: 86.88px;
+    }
+
+    .gallery_container {
+        grid-template-columns: repeat(2, auto);
+        padding: 0 1rem;
+    }
+}

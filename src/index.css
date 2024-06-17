@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../src/assets/background.png");
+  background-image: url("../src/assets/trialbackground.jpg");
 
 }
 
@@ -26,6 +26,7 @@ code {
   border-style: solid;
   border-color: #eee;
   border-width: 2px;
+  border-radius: 1rem;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

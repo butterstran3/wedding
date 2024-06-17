@@ -1,6 +1,6 @@
 import React from "react";
 import "./homepage.css";
-import IMAGE from "../../assets/home_pic.JPG";
+import IMAGE from "../../assets/home_pic.jpg";
 
 const HomePage = () => {
     return (
@@ -19,10 +19,15 @@ const HomePage = () => {
             </div>
             <div className="home_info">
                 <p>
-                    Julia and Duy joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends. 
+                    Welcome to our special day! We're overjoyed to invite you to celebrate our love as we exchange vows and continue our journey together. 
+                    Your presence means the world to us, and we want to extend our heartfelt thanks for being a part of this milestone moment. 
                     <br></br>
                     <br></br>
-                    Photography by Terry Do.
+                    Explore our wedding details, RSVP, FAQs, and join us in creating unforgettable memories. 
+                    Your presence will make our day complete!
+                    <br></br>
+                    <br></br>
+                    Be sure to check out our gallery of quirky and intimate engagement & wedding photos, capturing the essence of us.
                 </p>
             </div>
         </div>

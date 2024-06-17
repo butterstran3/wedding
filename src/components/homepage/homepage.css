@@ -18,6 +18,7 @@
 
 .image_container .home_image {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .invite_container {
@@ -46,7 +47,7 @@
 
 .home_details {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .name {
@@ -56,13 +57,17 @@
 
 .home_info {
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
+}
+
+.home_info p {
+    margin-top: 0;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -83,5 +88,9 @@
 
     .home_container {
         padding: 20px 0 50px 0;
+    }
+
+    .home_info {
+        width: 80%;
     }
 }

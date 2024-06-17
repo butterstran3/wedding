@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Parisienne&display=swap');
 
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../../assets/AlexBrush-Regular.ttf');
+}
+
 .details_container {
     display: flex;
     flex-direction: column;
@@ -12,22 +17,23 @@
 
 .image_container .details_image {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .details_message {
-    width: 70%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.85rem;
+    width: 100%;
+    font-size: 1.2rem;
     text-align: center;
-    line-height: 1.5rem;
-    color: #9BA4B5;
+    line-height: 2rem;
 }
 
 .details_dates {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .event {
@@ -40,20 +46,38 @@
 }
 
 .heading {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
+    font-family: 'Alex Brush';
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 0;
 }
 
 .time {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     font-style: italic;
     color: #9BA4B5;
+    font-weight: 500;
+}
+
+.details_address {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .address {
     line-height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 500;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
@@ -84,5 +108,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .details_message {
+        padding: 2rem;
     }
 }
