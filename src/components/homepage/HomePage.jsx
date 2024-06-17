@@ -1,12 +1,11 @@
 import React from "react";
 import "./homepage.css";
-import IMAGE from "../../assets/home_pic.jpg";
 
 const HomePage = () => {
     return (
         <div className="home_container">
             <div className="image_container">
-                <img className="home_image" src={IMAGE} alt="Home Image"/>
+                <img className="home_image" src="../../assets/home_pic.jpg" alt="Home Image"/>
             </div>
             <div className="invite_container">
                 <h3 className="home_details">COME CELEBRATE OUR WEDDING</h3>
