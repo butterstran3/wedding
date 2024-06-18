@@ -11,11 +11,11 @@ const HomePage = () => {
             <div className="invite_container">
                 <h3 className="home_details">COME CELEBRATE OUR WEDDING</h3>
                 <hr></hr>
-                <h1 className="name">JULIA NGUYEN</h1>
-                <h4>— and —</h4>
                 <h1 className="name">DUY NGUYEN</h1>
+                <h4>— and —</h4>
+                <h1 className="name">JULIA NGUYEN</h1>
                 <hr></hr>
-                <h3 className="home_details">SATURDAY, JULY 3, 2024</h3>
+                <h3 className="home_details">FRIDAY, SEPTEMBER 22, 2024</h3>
             </div>
             <div className="home_info">
                 <p>

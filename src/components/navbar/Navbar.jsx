@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="mobile_contents">
                     <NavLink className="mobile_content" to="/" onClick={toggle}>HOME</NavLink>
-                    <NavLink className="mobile_content" to="/schedule" onClick={toggle}>WEDDING</NavLink>
+                    <NavLink className="mobile_content" to="/schedule" onClick={toggle}>SCHEDULE</NavLink>
                     <NavLink className="mobile_content" to="/photos" onClick={toggle}>PHOTOS</NavLink>
                     <NavLink className="mobile_content" to="/faq" onClick={toggle}>FAQ</NavLink>
                     <NavLink className="mobile_content" to="/rsvp" onClick={toggle}>RSVP</NavLink>

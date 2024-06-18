@@ -15,7 +15,7 @@ const Rsvp = () => {
 
     const sendEmail = (e) => {
       e.preventDefault();
-      emailjs.sendForm('service_4rdbasc', 'template_ybfav9v', form.current, 'F0iz3W8UWvYMr4mjO')
+      emailjs.sendForm('service_wpzds98', 'template_sv9qppp', form.current, 'V1y-xbYvk_2NUDK4-')
         .then((result) => {
             console.log(result.text);
             if (result.status === 200) {
@@ -68,7 +68,7 @@ const Rsvp = () => {
                 </h1>
                 <div className="form">
                     <form className='contact_form' ref={form} onSubmit={sendEmail}>
-                        <label for="fname">Full Name (Tên đầu tiên):</label>
+                        <label for="fname">Full Name (Họ và tên):</label>
                         <input className='name-input' type='text' name='name' id="name" required/>
                         <label for="email">Email:</label>
                         <input className='email-input' type='text' name='email' id="email" required/>
@@ -78,9 +78,9 @@ const Rsvp = () => {
                         <div className="select_container">
                             <SelectComponent className="select_option"/>
                         </div>
-                        <label for="diet">Do you have any dietary requirements?</label>
+                        <label for="diet">Do you have any dietary requirements? (Quý vị có nhu cầu ẩm thực nào không?)</label>
                         <input className="diet-input" type="text" name="diet" id="diet" required></input>
-                        <label for="song">What song would get you on the dance floor?</label>
+                        <label for="song">What song would get you on the dance floor? (Bài hát nào sẽ khuyến khích quý vị ra sàn nhảy)</label>
                         <input name="song" id="song" type="text" className="song-input" required></input>
                         {renderAdditionalGuestInputs()}
                         <div className="guest-btn_container">

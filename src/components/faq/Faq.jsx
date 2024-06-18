@@ -36,7 +36,7 @@ const Faq = () => {
                     }}>
                         <div className="toggle_btn"></div>
                     </div>
-                    <p className="viet">Vietnamese</p>
+                    <p className="viet">Tiếng Việt</p>
                 </div>
                 <div className="faq_list">
                     {faqData.map((item, i) => (
