@@ -15,7 +15,7 @@ const HomePage = () => {
                 <h4>— and —</h4>
                 <h1 className="name">JULIA NGUYEN</h1>
                 <hr></hr>
-                <h3 className="home_details">FRIDAY, SEPTEMBER 22, 2024</h3>
+                <h3 className="home_details">FRIDAY, NOVEMBER 22, 2024</h3>
             </div>
             <div className="home_info">
                 <p>
